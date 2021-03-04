@@ -11,7 +11,7 @@ In a project with 2 branches, `prod` and `dev`, define the following secrets:
 
 Step configuration:
 ```yaml
-      - uses: noliran/branch-based-secrets@v1
+      - uses: stampix/branch-based-secrets@v1
         with:
           secrets: SECRET_TOKEN
 ```
