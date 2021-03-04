@@ -2,10 +2,11 @@ name: "Test branch-based-secrets"
 on:
   pull_request:
     branches:
-      - master  
+      - master
   push:
     branches:
       - master
+  workflow_dispatch:
 
 jobs:
   latest:
